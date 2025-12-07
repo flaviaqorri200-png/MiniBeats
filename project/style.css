@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+/* NAV */
+nav {
+    background: black;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav button {
+    background: #de6fa1;
+    border: none;
+    padding: 8px 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+    display: none;
+    padding: 25px;
+}
+
+.section.active {
+    display: block;
+}
+
+/* HOME */
+.home {
+    height: calc(100vh - 70px);
+    background: linear-gradient(180deg, #de6fa1, #121212);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 1s ease-in;
+}
+
+.home h1 {
+    font-size: 48px;
+}
+
+.home p {
+    max-width: 500px;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.cta {
+    background: #1e1e1e;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.info {
+    margin-top: 25px;
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+}
+
+/* SEARCH */
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* SONG CARD */
+.song {
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* HEART EMOJI BUTTON */
+.heart-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
